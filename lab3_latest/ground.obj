@@ -1,0 +1,18 @@
+o ground_obj.lwo
+
+#	             Vertex list
+
+v -200 0 200
+v 200 0 200
+v 200 0 -200
+v -200 0 -200
+
+
+#	               Face list
+
+usemtl ground_texture
+f 1 2 3
+f 3 4 1
+
+
+#	             End of file
